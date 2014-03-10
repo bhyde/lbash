@@ -1,0 +1,12 @@
+* Intro
+
+An silly experiment with writing a parser for shell scripts.
+
+Which can be used to this...
+
+```common-lisp
+> (inferior-shell:run (esrap:parse '<shell-one-liner> "echo hi | wc -l") :output t)
+       1
+```
+I need to think some more about what my goal is here :)
+
